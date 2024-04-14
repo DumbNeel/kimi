@@ -16,6 +16,17 @@ body{
     padding-top: 0 !important;
 }
 
+#cart-icon{
+    font-size: 25px;
+    margin-top: 19px;
+    margin-right: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
 button, a{
     cursor: pointer;
 }
@@ -404,9 +415,10 @@ a.text-secondary:hover{
     width: 700px;
     max-width: 100%;
     margin: 0 auto;
-    font-size: 48px;
-    font-weight: 800;
+    font-size: 50px;
+    font-weight: 900;
     line-height: 115%;
+    padding-top: 2.5em;
     font-family: 'Helvetica';
 }
 
@@ -832,7 +844,10 @@ footer a:hover{
     background-color: #000;
     opacity: .4;
     z-index: 9;
+   
+
 }
+
 
 .item p{
     color: white;
